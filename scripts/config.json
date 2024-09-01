@@ -1,0 +1,13 @@
+{
+  "PROJECTS_PATH": "WebstormProjects",
+  "PROJECT_SOLUTION": "Hacktrack.Testing",
+  "SERVER_TMP_PATH": "/tmp",
+  "DOCKER_NETWORK_NAME": "hack",
+  "DOCKER_FOLDER": "docker",
+  "DOCKER_COMPOSE_DEV_FILE": "docker-compose.dev.yml",
+  "DOCKER_COMPOSE_DEV_OVERRIDE_FILE": "docker-compose.dev.override.yml",
+  "DOCKER_COMPOSE_PROD_FILE": "docker-compose.prod.yml",
+  "SSH_USER": "root",
+  "SSH_SERVER": "*",
+  "SSH_PORT": "*"
+}

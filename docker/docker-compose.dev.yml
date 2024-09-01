@@ -1,0 +1,13 @@
+services:
+  hacktrack.testing.web:
+    image: hacktrack.testing.web
+    container_name: hacktrack.testing.web
+    networks:
+      - hack
+
+networks:
+  hack:
+    external: true
+
+volumes:
+  hacktrack.testing.web:

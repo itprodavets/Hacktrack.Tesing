@@ -1,0 +1,14 @@
+services:
+  hacktrack.testing.web:
+    build:
+      context: ..
+      dockerfile: docker/dev/Dockerfile
+    volumes:
+      - .:/hacktrack-testing
+    environment:
+      - HOST=0.0.0.0
+      - NODE_ENV=development
+    env_file:
+      - ../.env.development
+    ports:
+      - "3000:3000"
